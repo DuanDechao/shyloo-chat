@@ -1,0 +1,73 @@
+#cmake file
+SET(SL_LOGIC_INTERFACE
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IGate.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IHarbor.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IDCCenter.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IIdMgr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IAgent.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IDB.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IEventEngine.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IFSM.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IMysqlMgr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/ICapacity.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IDistribution.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IAccount.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IRoleMgr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/ILogic.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IRedis.h"
+    "${PROJECT_SOURCE_DIR}/src/logic/interface/ICacheDB.h"
+    "${PROJECT_SOURCE_DIR}/src/logic/interface/IScriptEngine.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IPlayerMgr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IPacketSender.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IPropDelaySender.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/ISceneMgr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/ISceneClientMgr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IScene.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IObjectTimer.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IObjectLocator.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IAOI.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IOCCommand.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IRelation.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IClient.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IMonitor.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IStarter.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IChannel.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/IAuth.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/DBType.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/interface/SQLBase.h"
+)
+
+SET(SL_LOGIC_DEFINE
+	"${PROJECT_SOURCE_DIR}/src/logic/define/NodeDefine.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/NodeProtocol.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/GameDefine.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/Attr.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/DBDef.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/EventID.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/MonitorProtocol.h"
+	"${PROJECT_SOURCE_DIR}/src/logic/define/ChatProtocol.h"
+) 
+
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/attrgetter)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/harbor)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/agent)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/slave)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/starter)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/capacity)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/master)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/cluster)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/dccenter)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/idmgr)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/gate)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/eventengine)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/scriptengine)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/client)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/robot)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/objecttimer)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/balance)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/monitor)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/monitorclient)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/startnodestrategy)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/channel)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src/logic/auth)
+

@@ -1,0 +1,11 @@
+#ifndef SL_NODE_DEFINE_H
+#define SL_NODE_DEFINE_H
+enum NodeType{
+	SLAVE = -3,
+	MASTER = -2,
+	CHATGATE = 101,
+	CHATBALANCER = 102,
+	CHATCHANNEL = 103,
+	CHATAUTH = 104,
+};
+#endif

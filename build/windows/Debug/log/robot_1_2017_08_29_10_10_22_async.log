@@ -1,0 +1,8 @@
+[2017-08-29 10:10:24][1256][trace]initializing name Client. (D:\shyloo\src\kernel\logic\sllogic_engine.cpp:72)
+[2017-08-29 10:10:24][1256][trace]initializing name Robot. (D:\shyloo\src\kernel\logic\sllogic_engine.cpp:72)
+[2017-08-29 10:10:24][1256][trace]launching name Client. (D:\shyloo\src\kernel\logic\sllogic_engine.cpp:85)
+[2017-08-29 10:10:24][1256][trace]client session connected (D:\shyloo\src\logic\client\ClientSession.cpp:8)
+[2017-08-29 10:10:24][1256][trace]connect [101.132.47.140:7100] success! (D:\shyloo\src\logic\client\Client.cpp:63)
+[2017-08-29 10:10:24][1256][trace]launching name Robot. (D:\shyloo\src\kernel\logic\sllogic_engine.cpp:85)
+[2017-08-29 10:10:29][1256][trace]client session connected (D:\shyloo\src\logic\client\ClientSession.cpp:8)
+[2017-08-29 10:10:29][1256][trace]connect [101.132.47.140:7200] success! (D:\shyloo\src\logic\client\Client.cpp:63)
